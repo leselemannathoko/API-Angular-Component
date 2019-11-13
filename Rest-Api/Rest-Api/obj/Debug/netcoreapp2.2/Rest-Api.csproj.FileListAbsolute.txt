@@ -1,0 +1,14 @@
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\bin\Debug\netcoreapp2.2\Rest-Api.deps.json
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\bin\Debug\netcoreapp2.2\Rest-Api.runtimeconfig.json
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\bin\Debug\netcoreapp2.2\Rest-Api.runtimeconfig.dev.json
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\bin\Debug\netcoreapp2.2\Rest-Api.dll
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\bin\Debug\netcoreapp2.2\Rest-Api.pdb
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\obj\Debug\netcoreapp2.2\Rest-Api.csprojAssemblyReference.cache
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\obj\Debug\netcoreapp2.2\Rest-Api.csproj.CoreCompileInputs.cache
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\obj\Debug\netcoreapp2.2\Rest-Api.RazorAssemblyInfo.cache
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\obj\Debug\netcoreapp2.2\Rest-Api.RazorAssemblyInfo.cs
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\obj\Debug\netcoreapp2.2\Rest-Api.AssemblyInfoInputs.cache
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\obj\Debug\netcoreapp2.2\Rest-Api.AssemblyInfo.cs
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\obj\Debug\netcoreapp2.2\Rest-Api.RazorTargetAssemblyInfo.cache
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\obj\Debug\netcoreapp2.2\Rest-Api.dll
+C:\Users\leselem\Documents\GitHub\Angular-RestApi\Rest-Api\Rest-Api\obj\Debug\netcoreapp2.2\Rest-Api.pdb
