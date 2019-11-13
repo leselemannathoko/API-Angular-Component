@@ -12163,11 +12163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leselem\\Documents\\GitHub\\Angular-RestApi\\Rest-Api\\Rest-Api\\Rest-Api.csproj",
+      "projectUniqueName": "C:\\Users\\leselem\\Desktop\\New folder\\API-Angular-Component\\Rest-Api\\Rest-Api\\Rest-Api.csproj",
       "projectName": "Rest-Api",
-      "projectPath": "C:\\Users\\leselem\\Documents\\GitHub\\Angular-RestApi\\Rest-Api\\Rest-Api\\Rest-Api.csproj",
+      "projectPath": "C:\\Users\\leselem\\Desktop\\New folder\\API-Angular-Component\\Rest-Api\\Rest-Api\\Rest-Api.csproj",
       "packagesPath": "C:\\Users\\leselem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leselem\\Documents\\GitHub\\Angular-RestApi\\Rest-Api\\Rest-Api\\obj\\",
+      "outputPath": "C:\\Users\\leselem\\Desktop\\New folder\\API-Angular-Component\\Rest-Api\\Rest-Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
