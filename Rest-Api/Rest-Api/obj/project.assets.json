@@ -12157,23 +12157,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leselem\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Lesele Mannathoko\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leselem\\Desktop\\New folder\\API-Angular-Component\\Rest-Api\\Rest-Api\\Rest-Api.csproj",
+      "projectUniqueName": "C:\\Users\\Lesele Mannathoko\\Desktop\\API-Angular-Component\\Rest-Api\\Rest-Api\\Rest-Api.csproj",
       "projectName": "Rest-Api",
-      "projectPath": "C:\\Users\\leselem\\Desktop\\New folder\\API-Angular-Component\\Rest-Api\\Rest-Api\\Rest-Api.csproj",
-      "packagesPath": "C:\\Users\\leselem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leselem\\Desktop\\New folder\\API-Angular-Component\\Rest-Api\\Rest-Api\\obj\\",
+      "projectPath": "C:\\Users\\Lesele Mannathoko\\Desktop\\API-Angular-Component\\Rest-Api\\Rest-Api\\Rest-Api.csproj",
+      "packagesPath": "C:\\Users\\Lesele Mannathoko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lesele Mannathoko\\Desktop\\API-Angular-Component\\Rest-Api\\Rest-Api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\leselem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lesele Mannathoko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12216,10 +12212,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
