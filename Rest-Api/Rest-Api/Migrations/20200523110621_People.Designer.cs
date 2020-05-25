@@ -9,8 +9,8 @@ using Rest_Api.Data;
 namespace Rest_Api.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200519080046_Person")]
-    partial class Person
+    [Migration("20200523110621_People")]
+    partial class People
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
