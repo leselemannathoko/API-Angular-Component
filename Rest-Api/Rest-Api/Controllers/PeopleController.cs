@@ -24,7 +24,7 @@ namespace Rest_Api.Controllers
         [HttpGet]
         public IActionResult GetPeople()
         {
-            var people = _context.People.ToArrayAsync();
+            var people = _context.People.ToList();
             return Ok(people);
         }
 
