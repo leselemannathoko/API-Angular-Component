@@ -3,26 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Rest_Api.Data;
 
 namespace Rest_Api.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ValuesController : ControllerBase
+    public class PersonController : Controller
     {
+        private readonly DataContext _context;
+
+        public PersonController(DataContext context)
+        {
+            _context = context;
+
+        }
+
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public IActionResult GetPeople()
         {
-            
-            return new string[] { "value1", "value2" };
+            var people = _context.People.ToList();
+            return Ok(people);
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public IActionResult GetPeopleById(int id)
         {
-            return "value";
+            var peopleById = _context.People.FirstOrDefault(x => x.Id == id);
+            return Ok(peopleById);
         }
 
         // POST api/values
