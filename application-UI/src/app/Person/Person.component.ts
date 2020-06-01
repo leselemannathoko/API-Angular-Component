@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-Person',
@@ -6,10 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./Person.component.css']
 })
 export class PersonComponent implements OnInit {
+people: any;
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
+    this.getPeople();
   }
 
+
+  getPeople(){
+    this.http.get('https://localhost:44313/api/people').subscribe(response =>{
+      this.people = response;
+    }, error => {
+    console.log(error);
+  });
+}
 }
