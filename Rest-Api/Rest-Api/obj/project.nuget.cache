@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+kwvzi/cTh2u/H/2NCfnwcv+yEIKNDjzuj49BAdO5L+OIMijrRgPwJJ2iV0bHbqQcDV7i87cjWgjebR0sdlGLA==",
+  "dgSpecHash": "2jOGWQtsPD96trEn7aux7bmeVEt7g+Ig21evyXIecL4MX20MxlHeE/xMNHRN1wRxmbl8jrmfnkdGPZIwRYwDNA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lesele Mannathoko\\Desktop\\API-Angular-Component\\Rest-Api\\Rest-Api\\Rest-Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lesele Mannathoko\\.nuget\\packages\\microsoft.aspnet.mvc.futures\\5.0.0\\microsoft.aspnet.mvc.futures.5.0.0.nupkg.sha512",
     "C:\\Users\\Lesele Mannathoko\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Lesele Mannathoko\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Users\\Lesele Mannathoko\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
@@ -306,5 +307,16 @@
     "C:\\Users\\Lesele Mannathoko\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\Lesele Mannathoko\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Mvc.Futures 5.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Mvc.Futures",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
 }

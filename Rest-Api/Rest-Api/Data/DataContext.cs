@@ -15,6 +15,7 @@ namespace Rest_Api.Data
 
 
             public DbSet<Person> People{ get; set; }
+            public DbSet<User> Users { get; set; }
 
     }
 }

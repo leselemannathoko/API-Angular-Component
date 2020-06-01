@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.2": {
       "Rest-Api/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNet.Mvc.Futures": "5.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
@@ -34,6 +35,17 @@
         },
         "compile": {
           "Rest-Api.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc.Futures/5.0.0": {
+        "runtime": {
+          "lib/net40/Microsoft.Web.Mvc.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.11001.0"
+          }
+        },
+        "compile": {
+          "lib/net40/Microsoft.Web.Mvc.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -3543,6 +3555,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNet.Mvc.Futures/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gsBaxIa6u10MEiEZsOawC30uT3L0XnnlX4n6GxHbQG8oxPvuLGZFxiyiIgY3P6WsLVUlxL/tZwmj5Al1kQ2+8g==",
+      "path": "microsoft.aspnet.mvc.futures/5.0.0",
+      "hashPath": "microsoft.aspnet.mvc.futures.5.0.0.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
