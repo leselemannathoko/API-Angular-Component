@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace Rest_Api.Dtos
 {
-    public class UserRegisterDto
+    public class UserLoginDto
     {
-        [Required]
         public string Username { get; set; }
 
-        [Required]
-        [StringLength(8,MinimumLength = 4, ErrorMessage ="Specify a Properleng between 4 to 8 Charecters")]
         public string Password { get; set; }
     }
 }
